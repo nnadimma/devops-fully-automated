@@ -19,7 +19,7 @@ pipeline {
         stage('Git checkout') {
             steps {
                 echo 'Cloning the application code...'
-                git branch: 'main', url: 'https://github.com/nnadimma/devops-fully-automated.git
+                git branch: 'main', url: 'https://gh repo clone nnadimma/devops-fully-automated
 
             }
         }
